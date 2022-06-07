@@ -1,0 +1,29 @@
+@import "../../../App.scss";
+
+.botones {
+    width: 14rem;
+    height: 8rem;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    position: relative;
+    top: 0;
+}
+
+.botones img{
+    width: 30%;
+    height: 50%;
+}
+.boton {
+    width: 56%;
+    height: 50%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    background-color: rgba(209, 209, 228, 0.616);
+    cursor: pointer;
+    a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+}
