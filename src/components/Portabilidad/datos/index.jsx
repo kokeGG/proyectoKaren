@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './index.scss';
 import cuadroVerde from '../../assets/cuadroVerde.png';
+import barcode from '../../assets/barcode.png';
 
 const Datos = () => {
 
@@ -10,8 +11,11 @@ const Datos = () => {
             <div className="Datos-container">
                 <div className="valorCliente">
                     <p>Valor Cliente</p>
-                    <img src={cuadroVerde} />
+                    <div className="cuadroVerde">
+                        <img src={cuadroVerde} />
+                    </div>
                 </div>
+
                 <h2>DATOS</h2>
 
                 <div className="selecPromo">
@@ -40,7 +44,51 @@ const Datos = () => {
                                 2.Amigo Normal recarga 100 y obtén paquete 200 por 5 meses SL
                             </option>
                         </select>
-                        
+                    </div>
+
+                    <div className="NIP">
+                        <p>NIP</p>
+                        <input
+                            type="text"
+                        />
+                    </div>
+
+                    <div className="confNIP">
+                        <p>Confirmar NIP</p>
+                        <input
+                            type="text"
+                        />
+                    </div>
+
+                    <div className="ICCID">
+                        <p>ICCID</p>
+                        <input
+                            type="text"
+                        />
+                    </div>
+
+                    <div className="codigoBarras">
+                        <img src={barcode} alt="" />
+                    </div>
+
+                    <div className="IMEI">
+                        <p>IMEI</p>
+                        <input
+                            type="text"
+                        />
+                    </div>
+
+                    <div className="botones">
+                        <button>
+                            <Link to=''>
+                                Regresar
+                            </Link>
+                        </button>
+                        <button>
+                            <Link to=''>
+                                Siguiente
+                            </Link>
+                        </button>
                     </div>
                 </div>
             </div>

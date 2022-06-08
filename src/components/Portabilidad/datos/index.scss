@@ -1,1 +1,19 @@
 @import "../../../App.scss";
+
+.valorCliente {
+    margin-top: -50px;
+    float: right;
+    p{
+        color: rgb(65, 125, 214);
+        display: flex;
+        align-items: flex-end;
+    }
+    .cuadroVerde {
+        height: 50px;
+        img {
+            width: 100%;
+            max-height: 55%;
+            object-fit: contain;
+        }
+    }
+}
