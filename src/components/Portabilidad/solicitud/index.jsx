@@ -5,7 +5,7 @@ import curpbtn from '../../assets/curpbtn.png'
 
 const Solicitud = () => {
 
-    
+
     return (
         <>
             <div className="containerStyles">
@@ -86,13 +86,16 @@ const Solicitud = () => {
                             placeholder="CURP"
                         />
                         <button className="btn-search">
-                            <img src={curpbtn}/>
+                            <Link to='/menu/solicitud/curp'>
+                                <img src={curpbtn}/>
+
+                            </Link>
                         </button>
                     </div>
                     <div className="button-next">
                         <button>
-                            <Link to=''>
-                                SIGUIENTE
+                            <Link to='/menu/solicitud/datos'>
+                                siguiente
                             </Link>
                         </button>
                     </div>
