@@ -1,2 +1,70 @@
 @import "../../../App.scss";
 
+.containerStyles {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-around;
+    align-items: center;
+}
+
+.subtitle,
+.subtitle2 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.cmb-plan {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+    color: rgb(65, 125, 214);
+
+
+    select {
+        //margin: 3vh 0;
+        width: 250%;
+        height: 35px;
+        font-size: 1em;
+        display: flex;
+        justify-content: center;
+        //text-align-last: left;
+        //justify-content: flex-end;
+    }
+}
+
+.input-container-top, .input-container-mid, .input-container-bot {
+    width: 30%;
+    display: flex;
+    //flex-direction: column;
+    //justify-content: space-around;
+    align-items: center;
+    color: rgb(65, 125, 214);
+    input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.button-next button{
+    width: 56%;
+    padding: 10px;
+    height: 60%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 255, 0.616);
+    cursor: pointer;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.btn-search {
+    margin-left: 1rem;
+}
+
