@@ -45,52 +45,52 @@ const Datos = () => {
                             </option>
                         </select>
                     </div>
-
-                    <div className="NIP">
-                        <p>NIP</p>
-                        <input
-                            type="text"
-                        />
-                    </div>
-
-                    <div className="confNIP">
-                        <p>Confirmar NIP</p>
-                        <input
-                            type="text"
-                        />
-                    </div>
-
-                    <div className="ICCID">
-                        <p>ICCID</p>
-                        <input
-                            type="text"
-                        />
-                    </div>
-
-                    <div className="codigoBarras">
-                        <img src={barcode} alt="" />
-                    </div>
-
-                    <div className="IMEI">
-                        <p>IMEI</p>
-                        <input
-                            type="text"
-                        />
-                    </div>
-
-                    <div className="botones">
-                        <button>
-                            <Link to=''>
-                                Regresar
-                            </Link>
-                        </button>
-                        <button>
-                            <Link to=''>
-                                Siguiente
-                            </Link>
-                        </button>
-                    </div>
                 </div>
+                <div className="NIP">
+                    <p>NIP</p>
+                    <input
+                        type="text"
+                    />
+                </div>
+
+                <div className="confNIP">
+                    <p>Confirmar NIP</p>
+                    <input
+                        type="text"
+                    />
+                </div>
+
+                <div className="ICCID">
+                    <p>ICCID</p>
+                    <input
+                        type="text"
+                    />
+                </div>
+
+                <div className="codigoBarras">
+                    <img src={barcode} alt="" />
+                </div>
+
+                <div className="IMEI">
+                    <p>IMEI</p>
+                    <input
+                        type="text"
+                    />
+                </div>
+
+                <div className="botones">
+                    <button>
+                        <Link to='/menu/solicitud'>
+                            Regresar
+                        </Link>
+                    </button>
+                    <button>
+                        <Link to=''>
+                            Siguiente
+                        </Link>
+                    </button>
+                </div>
+
             </div>
         </>
     );
