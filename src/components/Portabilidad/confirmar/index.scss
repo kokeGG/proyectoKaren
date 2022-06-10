@@ -1,0 +1,123 @@
+@import "../../../App.scss";
+
+.confContainer {
+    h2 {
+        text-align: center;
+    }
+    h4, h2 {
+        color: rgb(65, 125, 214);
+    }
+    .datosU {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        h4 {
+            width: 15%;
+        }
+        p {
+            width: 35%;
+            transform: translateY(5px) translateX(-20px);
+        }
+        h5 {
+            width: 2%;
+            transform: translateX(-23px);
+        }
+    }
+    .telContainer {
+        width: 30%;
+        transform: translateX(23px);
+    }
+    .IDCOP {
+        width: 30%;
+        transform: translateX(210px) translateY(-79px);
+    }
+    .promo {
+        width: 90%;
+        transform: translateX(23px) translateY(-79px);
+
+    }
+    .nombre {
+        width: 20%;
+        transform: translateX(23px) translateY(-79px);
+        h4, p {
+            font-size: 15px;
+        }
+
+    }
+    .apellidoP {
+        width: 30%;
+        transform: translateX(125px) translateY(-157px);
+        h4 {
+            font-size: 15px;
+        }
+    }
+    .apellidoM {
+        width: 31%;
+        transform: translateX(270px) translateY(-233px);
+        h4 {
+            font-size: 15px;
+        }
+
+    }
+    .curp {
+        width: 20%;
+        transform: translateX(23px) translateY(-233px);
+
+    }
+    .IMEI {
+        width: 35%;
+        transform: translateX(220px) translateY(-315px);
+    }
+
+    .ICCID {
+        width: 45%;
+        transform: translateX(23px) translateY(-300px);
+
+    }
+    .btnContainer {
+        width: 90%;
+        height: 100;
+        transform: translateY(-300px) translateX(22px);
+        button {
+            width: 100%;
+            padding: 8px;
+            //height: 100%;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            background-color: rgba(0, 0, 255, 0.616);
+            cursor: pointer;
+            a {
+                width: 100%;
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .confContainer {
+
+        .apellidoP {
+            transform: translateX(125px) translateY(-154px);
+            h4, p {
+                font-size: 13px;
+            }
+        }
+        .apellidoM {
+            transform: translateX(250px) translateY(-221px);
+            h4, p {
+                font-size: 13px;
+            }
+        }
+
+        .curp {
+            width: 20%;
+            transform: translateX(23px) translateY(-210px);
+        }
+        .IMEI {
+            transform: translateX(203px) translateY(-290px);
+
+        }
+    }
+  }

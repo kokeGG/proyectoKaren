@@ -20,6 +20,9 @@ const Homepage = () => (
                             <option value="r5">Region 5</option>
                             <option value="r6">Region 6</option>
                             <option value="r7">Region 7</option>
+                            <option value="r8">Region 8</option>
+                            <option value="r9">Region 9</option>
+
                         </select>
                     </div>
                     <button className="btn">
