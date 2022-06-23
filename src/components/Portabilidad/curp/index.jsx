@@ -108,7 +108,7 @@ const Curp = () => {
 
                 <div className="button-generar">
                     <button>
-                        <Link to='/menu/solicitud'>
+                        <Link to='/menu/solicitudconCURP'>
                             Generar
                         </Link>
                     </button>

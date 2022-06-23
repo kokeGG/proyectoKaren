@@ -39,7 +39,7 @@ const Confirmar = () => {
                 </div>
                 <div className="curp">
                     <h4>CURP</h4>
-                    <p>CURP</p>
+                    <p>RUJJ891001MDFZMS08</p>
                 </div>
                 <div className="IMEI">
                     <h4>IMEI</h4>

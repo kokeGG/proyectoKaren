@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 import './index.scss';
 import cuadroVerde from '../../assets/cuadroVerde.png';
 import barcode from '../../assets/barcode.png';
+import styled from "styled-components";
 
 const Datos = () => {
+    // const state = {
+    //     estadoModal1: false
+    // }
+    let estadoModal1 = false;
 
     return (
         <>
@@ -50,21 +55,21 @@ const Datos = () => {
                     <p>NIP</p>
                     <input
                         type="text"
-                    />
+                        />
                 </div>
 
                 <div className="confNIP">
                     <p>Confirmar NIP</p>
                     <input
                         type="text"
-                    />
+                        />
                 </div>
 
                 <div className="ICCID">
                     <p>ICCID</p>
                     <input
                         type="text"
-                    />
+                        />
                 </div>
 
                 <div className="codigoBarras">
@@ -77,7 +82,6 @@ const Datos = () => {
                         type="text"
                     />
                 </div>
-
                 <div className="botones">
                     <button>
                         <Link to='/menu/solicitud'>
@@ -89,11 +93,49 @@ const Datos = () => {
                             Siguiente
                         </Link>
                     </button>
+                <div>
+                    <ContenedorBotones>
+                        <Boton>
+                            <Link to='/ejemplo'>
+                                Ejemplo de error
+                            </Link>
+                        </Boton>
+                    </ContenedorBotones>
                 </div>
-
+                </div>
             </div>
         </>
     );
-};
+
+}
+const ContenedorBotones = styled.div`
+padding: 40px;
+display: flex;
+    flex-wrap;
+    justify-content: center;
+    gap: 20px;
+`;
+
+const Boton = styled.div`
+    display: block;
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    background: #1766DC;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: .3s ease all;
+
+    &:hover {
+        background: #0066FF;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+`;
 
 export default Datos;
