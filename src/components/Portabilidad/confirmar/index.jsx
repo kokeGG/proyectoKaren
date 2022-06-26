@@ -15,39 +15,39 @@ const Confirmar = () => {
                 <h2>Confirma solicitud en linea</h2>
                 <div className="telContainer">
                     <h4>Teléfono</h4>
-                    <p>1234567890</p>
+                    <p>5549495020</p>
                 </div>
                 <div className="IDCOP">
                     <h4>IDCOP</h4>
-                    <p>18818071810921</p>
+                    <p>18822060155189</p>
                 </div>
                 <div className="promo">
                     <h4>Promoción</h4>
-                    <p>1.Amigo Normal recarga 50 y obtén paquete 100 por 3 meses SL</p>
+                    <p>2.Amigo Normal recarga 100 y obtén paquete 200 por 5 meses SL</p>
                 </div>
                 <div className="nombre">
                     <h4>Nombre(s)</h4>
-                    <p>Nombre(s)</p>
+                    <p>Camilo</p>
                 </div>
                 <div className="apellidoP">
                     <h4>Apellido Paterno</h4>
-                    <p>Apellido Paterno</p>
+                    <p>Valencia</p>
                 </div>
                 <div className="apellidoM">
                     <h4>Apellido Materno</h4>
-                    <p>Apellido Materno</p>
+                    <p>Hernandez</p>
                 </div>
                 <div className="curp">
                     <h4>CURP</h4>
-                    <p>RUJJ891001MDFZMS08</p>
+                    <p>VARC890528VCXRSR04</p>
                 </div>
                 <div className="IMEI">
                     <h4>IMEI</h4>
-                    <p>234523455432345</p>
+                    <p>123456789123456</p>
                 </div>
                 <div className="ICCID">
                     <h4>ICCID</h4>
-                    <p>1234561234561234567</p>
+                    <p>1234567891234567891</p>
                 </div>
                 <div className="btnContainer">
                     <button>

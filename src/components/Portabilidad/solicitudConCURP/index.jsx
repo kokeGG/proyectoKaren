@@ -57,7 +57,7 @@ const SolicitudCurp = () => {
                         <p>Teléfono</p>
                         <input
                             type="text"
-                            placeholder="Teléfono"
+                            value="5549495020"
                         />
                     </div>
 
@@ -65,7 +65,7 @@ const SolicitudCurp = () => {
                         <p>Nombre(s)</p>
                         <input
                             type="text"
-                            placeholder="Nombre (s)"
+                            value="Camilo"
                         />
                     </div>
                 </div>
@@ -75,14 +75,14 @@ const SolicitudCurp = () => {
                         <p>Apellido Paterno</p>
                         <input
                             type="text"
-                            placeholder="Apellido Paterno"
+                            value="Valencia"
                         />
                     </div>
                     <div className="apeM">
                         <p>Apellido Materno</p>
                         <input
                             type="text"
-                            placeholder="Apellido Materno"
+                            value="Hernandez"
                         />
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const SolicitudCurp = () => {
                         <input
                             type="text"
                             placeholder="CURP"
-                            value="RUJJ891001MDFZMS08"
+                            value="VARC890528VCXRSR04"
                         />
                     </div>
                     <div className="searchContainer">
