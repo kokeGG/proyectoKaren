@@ -47,7 +47,7 @@ const Confirmar = () => {
                 </div>
                 <div className="ICCID">
                     <h4>ICCID</h4>
-                    <p>1234567891234567891</p>
+                    <p>8952020018594515084</p>
                 </div>
                 <div className="btnContainer">
                     <button>
