@@ -1,6 +1,7 @@
 @import "../../../App.scss";
 
 .Datos-container {
+    width: auto;
     h2 {
         text-align: center;
     }
@@ -10,74 +11,70 @@
     }
     .valorCliente {
         width: 30%;
-        transform: translateX(240px) translateY(30px);
+        margin-left: 15rem;
         p{
             color: rgb(65, 125, 214);
             text-align: center;
         }
         .cuadroVerde {
             height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
-                transform: translateX(35px) translateY(-10px);
-                width: 50%;
-                max-height: 55%;
-                object-fit: contain;
+                height: 3rem;
             }
         }
     }
-    select {
-        width: 100%;
-    }
     .selecPromo {
-        transform: translateY(3px) translateX(54px);
-        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+        select {
+            width: 80%;    
+        }
+        
 
     }
-    .NIP {
-        width: 70%;
-        transform: translateX(54px);
-        input, p {
-            width: 40%;
-        }
-    }
-    .confNIP {
-        width: 45%;
-        transform: translateY(-70px) translateX(215px);
-        input {
-            width: 60%;
-        }
+    .NIPcontainer {
+        display: flex;
+        gap: 1rem;
+        margin-left: 3rem;
     }
 
     .ICCID {
         width: 60%;
-        transform: translateY(-73px) translateX(54px);
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
         input {
             width: 80%;
         }
     }
 
-    .codigoBarras {
-        width: 20%;
-        transform: translateY(-103px) translateX(307px);
-
-    }
-
-    .IMEI {
-        width: 60%;
-        transform: translateY(-120px) translateX(54px);
-        input {
-            width: 80%;
+    .botContainer {
+        display: flex;
+        gap: 2rem;
+        margin-left: 3rem;
+        .codigoBarras {
+            width: 20%;
+            display: flex;
+            align-items: flex-end;
         }
-
     }
+
+    
     .botones {
-        width: 70%;
-        height: 100;
-        transform: translateY(-105px) translateX(50px);
+        display: flex;
+        gap: 1rem;
+        width: auto;
+        height: auto;
+        margin-left: 3rem;
         button {
-            width: 50%;
+            width: 40%;
             padding: 8px;
-            height: 40%;
+            height: 30%;
+            margin-top: 1rem;
             letter-spacing: 1px;
             text-transform: uppercase;
             background-color: rgba(0, 0, 255, 0.616);
@@ -87,5 +84,25 @@
                 text-decoration: none;
             }
         }
+    }
+    .botonModal {
+        margin-top: 1rem;
+        margin-left: 14rem;
+        button {
+            border-radius: 1rem;
+            padding: 8px;
+            cursor: pointer;
+            background-color: rgb(179, 25, 25);
+            text-transform: uppercase;
+            a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+    .pormishuevos {
+        border: 1px solid red;
+        position: inherit;
+
     }
 }

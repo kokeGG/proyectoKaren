@@ -1,12 +1,44 @@
 @import "../../../App.scss";
 
 .solicitud-container {
+    width: auto;
+    height: auto;
 
     p {
         color: rgb(65, 125, 214);
     }
-    .input-container-top, .input-container-mid, .input-container-bot, .button-next {
+
+    .input-container-top,
+    .input-container-mid,
+    .input-container-bot,
+    .button-next {
+        display: flex;
         height: 90px;
+
+        .tel,
+        .nombre,
+        .apeP,
+        .apeM,
+        .curp {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                width: 86%;
+            }
+        }
+
+        .searchContainer {
+            width: 30%;
+            height: 99%;
+            display: flex;
+            align-items: flex-end;
+
+            .btn-search {
+                height: 70%;
+                width: 70%;
+            }
+        }
     }
 
     h1,
@@ -22,34 +54,10 @@
         }
     }
 
-    .input-container-top input {
-        width: 30%;
-    }
-
-    .nombre {
-        transform: translateX(159px) translateY(-73px);
-    }
-
-    .input-container-mid input {
-        width: 40%;
-    }
-
-    .apeM {
-        transform: translateX(159px) translateY(-73px);
-    }
-
-    .curp {
-        input {
-            width: 50%;
-        }
-    }
-
-    .searchContainer {
-        width: 30%;
-        transform: translateX(159px) translateY(-63px);
-
-    }
-    .button-next button{
+    .button-next {
+        width: auto;
+        button {
+            margin-top: 1rem;
             width: 50%;
             padding: 8px;
             height: 40%;
@@ -62,4 +70,5 @@
                 text-decoration: none;
             }
         }
+    }
 }
